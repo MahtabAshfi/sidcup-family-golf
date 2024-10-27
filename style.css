@@ -25,11 +25,12 @@ html,body{
 #cursor-blur{
   height: 500px;
   width: 500px;
-  background-color: #96c11e2b;
+  background-color: #a6d22e4a;
   border-radius: 50%;
   position: fixed;
-  filter: blur(50px);
+  filter: blur(90px);
   z-index: 9;
+  transition: all linear 0.3s;
 }
 
 #nav{
@@ -105,6 +106,7 @@ video{
   font-size: 20px;
   font-weight: 400;
   width: 42%;
+  line-height: 27px;
 }
 
 #page2{
@@ -163,37 +165,43 @@ video{
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0 90px;
+  padding: 0 120px;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 #img1{
-  height: 170px;
-  width: 165px;
+  height: 175px;
+  width: 170px;
   border-radius: 8px;
   object-fit: cover;
+  filter: brightness(70%);
+  position: relative;
+  top: 12%;
 }
 
 #img2{
-  height: 215px;
-  width: 160px;
+  height: 225px;
+  width: 170px;
   border-radius: 8px;
   object-fit: cover;
+  filter: brightness(70%);
+  position: relative;
+  top: 12%;
 }
 
 #about-us-desc{
-  width: 55%;
+  width: 58%;
   text-align: center;
 }
 
 #about-us-desc h3{
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 900;
   margin-bottom: 25px;
 }
 
 #about-us-desc p{
   font-size: 20px;
-  line-height: 35px;
+  line-height: 40px;
 }
