@@ -2,8 +2,8 @@ let cursor = document.getElementById("cursor");
 let cursorBlur = document.getElementById("cursor-blur");
 
 document.addEventListener("mousemove", function(e){
-  cursor.style.left = e.x + "px";
-  cursor.style.top = e.y + "px";
+  cursor.style.left = e.x + 5 + "px";
+  cursor.style.top = e.y + 5 + "px";
   cursorBlur.style.left = e.x - 250 + "px";
   cursorBlur.style.top = e.y - 250 + "px";
 })

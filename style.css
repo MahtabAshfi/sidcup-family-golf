@@ -244,7 +244,7 @@ video{
   width: 100%;
   background-color: #92BC1E;
   padding: 30px;
-  padding-top: 100px;
+  padding-top: 80px;
   border-radius: 15px;
   opacity: 0;
   transition: all ease 0.5s;
@@ -259,7 +259,7 @@ video{
 .overlay p{
   color: black;
   font-size: 18px;
-  line-height: 37px;
+  line-height: 30px;
   padding-top: 25px;
 }
 
