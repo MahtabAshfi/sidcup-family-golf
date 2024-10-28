@@ -8,6 +8,20 @@ document.addEventListener("mousemove", function(e){
   cursorBlur.style.top = e.y - 250 + "px";
 })
 
+let navbtn = document.querySelectorAll("#nav h4");
+navbtn.forEach((element)=>{
+  element.addEventListener("mouseenter",()=>{
+    cursor.style.scale = 3;
+    cursor.style.border = "1px solid #ffffff";
+    cursor.style.backgroundColor = "transparent";
+  })
+  element.addEventListener("mouseleave",()=>{
+    cursor.style.scale = 1;
+    cursor.style.border = "0px solid #92BC1E";
+    cursor.style.backgroundColor = "#92BC1E";
+  })
+})
+
 gsap.to("#nav",{
   backgroundColor:"#000",
   height:"105px",
@@ -25,8 +39,21 @@ gsap.to("#main",{
   scrollTrigger:{
     trigger:"#main",
     scroller:"body",
-    start:"top -65%",
+    start:"top -25%",
     end:"top -70%",
     scrub:2
   }
 })
+
+gsap.from("#about-us #img1, #about-us #img2, #about-us-desc", {
+  y: 90,
+  opacity: 0,
+  duration: 2,
+  scrollTrigger: {
+    trigger: "#about-us",
+    scroller: "body",
+    start: "top 70%",
+    end: "top 65%",
+    scrub: 1,
+  },
+});
