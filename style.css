@@ -270,11 +270,26 @@ video{
   transform: rotate3d(0,1,0,23deg);
 }
 
-#img-text{
-  font-size: 40px;
-  font-weight: 900 ;
+#green-div{
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  background: linear-gradient(to left bottom,#2DA734,#A6D721);
+}
+
+#green-div h4{
+  width: 39%;
+  font-size: 29px;
+  line-height: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+
+#green-div img{
   height: 100%;
-  width: 100%;
-  padding: 30px;
-  padding-top: 400px;
+  object-fit: cover;
+  width: 12%;
 }
