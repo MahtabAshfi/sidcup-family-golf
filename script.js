@@ -57,3 +57,38 @@ gsap.from("#about-us #img1, #about-us #img2, #about-us-desc", {
     scrub: 1,
   },
 });
+
+gsap.from("#colon1", {
+  y: -70,
+  x: -70,
+  scrollTrigger: {
+    trigger: "#colon1",
+    scroller: "body",
+    start: "top 55%",
+    end: "top 45%",
+    scrub: 4,
+  },
+});
+gsap.from("#colon2", {
+  y: 70,
+  x: 70,
+  scrollTrigger: {
+    trigger: "#colon1",
+    scroller: "body",
+    start: "top 55%",
+    end: "top 45%",
+    scrub: 4,
+  },
+});
+
+// gsap.from("#page4 h1", {
+//   y: 50,
+//   scrollTrigger: {
+//     trigger: "#page4 h1",
+//     scroller: "body",
+//     // markers:true,
+//     start: "top 75%",
+//     end: "top 70%",
+//     scrub: 3,
+//   },
+// });

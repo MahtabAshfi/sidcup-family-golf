@@ -81,7 +81,7 @@ video{
 }
 
 #page1 h1{
-  font-size: 145px;
+  font-size: 125px;
   font-weight: 900;
   position: relative;
 }
@@ -139,13 +139,14 @@ video{
 
 #scroller h4{
   display: inline-block;
-  font-size: 120px;
-  font-weight: 800;
+  font-size: 100px;
+  font-weight: 900;
   text-transform: uppercase;
+  font-family: gilroy;
   margin-right: 50px;
   color: transparent;
   transition: all linear 0.2s;
-  -webkit-text-stroke: 2px #92BC1E;
+  -webkit-text-stroke: 1px white;
 }
 
 #scroller h4:hover{
@@ -295,7 +296,7 @@ video{
   width: 12%;
 }
 
-#page-3{
+#page3{
   height: 100vh;
   width: 100%;
   background-color: black;
@@ -305,7 +306,7 @@ video{
   position: relative;
 }
 
-#page-3>p{
+#page3>p{
   font-size: 30px;
   font-weight: 900;
   text-transform: uppercase;
@@ -314,7 +315,7 @@ video{
   line-height: 50px;
 }
 
-#page-3 img{
+#page3 img{
   position: absolute;
   height: 60px;
 }
@@ -327,4 +328,64 @@ video{
 #colon2{
   bottom: 31%;
   right: 15%;
+}
+
+#page4 {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+}
+
+.elem {
+  height: 60%;
+  width: 28%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.elem h2 {
+  height: 100%;
+  width: 100%;
+  background-color: #95c11e;
+  display: flex;
+  color: #000;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.6s;
+  font-size: 35px;
+  position: absolute;
+  z-index: 10;
+}
+
+.elem img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.6s;
+  scale: 1.1;
+}
+
+.elem:hover h2 {
+  color: #fff;
+  background-color: transparent;
+}
+
+.elem:hover img {
+  scale: 1;
+}
+
+#page4 h1 {
+  font-size: 92px;
+  position: absolute;
+  top: -3%;
+  font-weight: 900;
+  color: #000;
+  font-family: gilroy;
+  -webkit-text-stroke: 1px #fff;
 }
