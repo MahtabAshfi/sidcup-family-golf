@@ -142,7 +142,7 @@ video{
   font-size: 100px;
   font-weight: 900;
   text-transform: uppercase;
-  font-family: gilroy;
+  font-family: sans-serif;
   margin-right: 50px;
   color: transparent;
   transition: all linear 0.2s;
@@ -381,11 +381,11 @@ video{
 }
 
 #page4 h1 {
-  font-size: 92px;
+  font-size: 84px;
   position: absolute;
-  top: -3%;
+  top: -7%;
   font-weight: 900;
   color: #000;
-  font-family: gilroy;
+  font-family: sans-serif;
   -webkit-text-stroke: 1px #fff;
 }
