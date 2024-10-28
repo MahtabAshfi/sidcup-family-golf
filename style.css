@@ -20,6 +20,7 @@ html,body{
   border-radius: 50%;
   position: fixed;
   z-index: 99;
+  transition: all linear 0.1s;
 }
 
 #cursor-blur{
@@ -30,7 +31,7 @@ html,body{
   position: fixed;
   filter: blur(90px);
   z-index: 9;
-  transition: all linear 0.3s;
+  transition: all linear 0.4s;
 }
 
 #nav{
@@ -292,4 +293,38 @@ video{
   height: 100%;
   object-fit: cover;
   width: 12%;
+}
+
+#page-3{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#page-3>p{
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 60%;
+  text-align: center;
+  line-height: 50px;
+}
+
+#page-3 img{
+  position: absolute;
+  height: 60px;
+}
+
+#colon1{
+  top: 31%;
+  left: 15%;
+}
+
+#colon2{
+  bottom: 31%;
+  right: 15%;
 }
