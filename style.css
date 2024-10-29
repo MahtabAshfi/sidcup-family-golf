@@ -389,3 +389,48 @@ video{
   font-family: sans-serif;
   -webkit-text-stroke: 1px #fff;
 }
+
+#footer {
+  height: 45vh;
+  width: 100%;
+  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 110px;
+  padding: 0 110px;
+}
+
+#footer > img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+#f1 img {
+  height: 100px;
+}
+
+#f2 h3 {
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+#f3 h3 {
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+#f4 h4 {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
